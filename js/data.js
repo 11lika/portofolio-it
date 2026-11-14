@@ -56,13 +56,13 @@ window.DATA = {
   // Ikon di hero. type: github, linkedin, instagram. Baris yang href-nya mengandung GANTI tidak ditampilkan.
   socials: [
     { type: "github", href: "https://github.com/11lika" },
-    { type: "linkedin", href: "https://www.linkedin.com/in/GANTI-USERNAME" },
+    { type: "linkedin", href: "https://www.linkedin.com/in/metalika-gunena" },
     { type: "instagram", href: "https://instagram.com/_metalika02" }
   ],
   cta: "Saya sedang mencari pekerjaan di bidang IT. Kirim pesan dan saya akan membalas secepatnya.",
   contacts: [
     { label: "Email", text: "metalikagunena@gmail.com", href: "mailto:metalikagunena@gmail.com" },
-    { label: "LinkedIn", text: "www.linkedin.com/in/metalika-gunena", href: "www.linkedin.com/in/metalika-gunena" },
+    { label: "LinkedIn", text: "linkedin.com/in/metalika-gunena", href: "https://www.linkedin.com/in/metalika-gunena" },
     { label: "GitHub", text: "github.com/11lika", href: "https://github.com/11lika" }
   ]
 };
