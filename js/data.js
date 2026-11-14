@@ -1,12 +1,12 @@
 // Semua isi portofolio ada di file ini. Edit di sini, tidak perlu menyentuh index.html.
-// Foto dan gambar: taruh di folder images/, lalu tulis path-nya (contoh: "images/1x1.png").
+// Foto dan gambar: taruh di folder images/, lalu tulis path-nya (contoh: "images/profil.jpg").
 window.DATA = {
   name: "Metalika Gunena",
   role: "Lulusan D-IV Teknik Informatika",
   intro: "Saya membangun server, jaringan, dan aplikasi web, dari homelab sampai halaman yang dibuka pengguna.",
   badge: "Terbuka untuk peluang kerja di bidang IT",
   chips: ["Proxmox", "Docker", "PHP", "JavaScript"], // GANTI sesuai keahlian utamamu
-  photo: "images/1x1.png", // GANTI: foto profilmu. Kalau file belum ada, tampil inisial.
+  photo: "images/profil.jpg", // GANTI: foto profilmu. Kalau file belum ada, tampil inisial.
   about: [
     "Saya lulus dari D-IV Teknik Informatika, Politeknik Negeri Manado, pada 2026. Skripsi saya membangun sistem Virtual Lab di atas arsitektur IaaS, mulai dari hypervisor sampai aplikasi webnya.",
     "Saya pernah magang sebagai IT Support di PT Angkasa Pura Indonesia Cabang Manado (Juli–Desember 2025). Sebelum kuliah, saya belajar akuntansi di SMK."
