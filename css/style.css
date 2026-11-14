@@ -61,3 +61,8 @@ dialog::backdrop{background:rgba(3,0,20,.8)}
 :root{color-scheme:dark}
 html{scrollbar-width:thin;scrollbar-color:var(--ac) var(--bg)}
 dialog{scrollbar-width:thin;scrollbar-color:var(--ac) var(--s1)}
+dialog{overflow:hidden}
+.dc{max-height:90vh;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#8B5CF6 #0E0B24}
+.dc::-webkit-scrollbar{width:10px}
+.dc::-webkit-scrollbar-track{background:#0E0B24}
+.dc::-webkit-scrollbar-thumb{background:#8B5CF6;border-radius:8px}
