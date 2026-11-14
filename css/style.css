@@ -9,12 +9,12 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--ac2);outline-offset
 .muted{color:var(--mu)}
 main,footer{position:relative;z-index:1}
 .bg{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none;background:radial-gradient(ellipse at 15% 0%,#0B1E4A 0%,transparent 55%),var(--bg)}
-.bg::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(147,197,253,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(147,197,253,.07) 1px,transparent 1px);background-size:44px 44px;-webkit-mask-image:radial-gradient(ellipse at 50% 30%,#000 15%,transparent 75%);mask-image:radial-gradient(ellipse at 50% 30%,#000 15%,transparent 75%);animation:grid 24s linear infinite}
+.bg::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(147,197,253,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(147,197,253,.07) 1px,transparent 1px);background-size:28px 28px;-webkit-mask-image:radial-gradient(ellipse at 50% 30%,#000 15%,transparent 75%);mask-image:radial-gradient(ellipse at 50% 30%,#000 15%,transparent 75%);animation:grid 24s linear infinite}
 .bg i{position:absolute;border-radius:50%;filter:blur(90px);animation:drift 20s ease-in-out infinite alternate}
 .bg i:nth-child(1){width:420px;height:420px;background:#1D4ED8;opacity:.45;top:-120px;left:-80px}
 .bg i:nth-child(2){width:360px;height:360px;background:#0EA5E9;opacity:.25;right:-100px;top:35%;animation-delay:-9s}
 @keyframes drift{to{transform:translate(90px,70px) scale(1.15)}}
-@keyframes grid{to{background-position:44px 44px}}
+@keyframes grid{to{background-position:28px 28px}}
 @media (prefers-reduced-motion:reduce){.bg::before,.bg i{animation:none}}
 .nav{position:sticky;top:0;z-index:5;background:rgba(2,6,23,.72);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;min-height:3.6rem;flex-wrap:wrap}
