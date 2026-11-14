@@ -4,6 +4,8 @@ window.DATA = {
   name: "Metalika Gunena",
   role: "Lulusan D-IV Teknik Informatika",
   intro: "Saya membangun server, jaringan, dan aplikasi web, dari homelab sampai halaman yang dibuka pengguna.",
+  badge: "Terbuka untuk peluang kerja di bidang IT",
+  chips: ["Proxmox", "Docker", "PHP", "JavaScript"], // GANTI sesuai keahlian utamamu
   photo: "images/profil.jpg", // GANTI: foto profilmu. Kalau file belum ada, tampil inisial.
   about: [
     "Saya lulus dari D-IV Teknik Informatika, Politeknik Negeri Manado, pada 2026. Skripsi saya membangun sistem Virtual Lab di atas arsitektur IaaS, mulai dari hypervisor sampai aplikasi webnya.",
@@ -51,9 +53,15 @@ window.DATA = {
     { group: "Server dan container", items: ["Docker", "Docker Compose", "aaPanel", "WSL2"] },
     { group: "Pengembangan web", items: ["PHP", "MySQL", "JavaScript", "HTML", "CSS", "Bootstrap"] }
   ],
+  // Ikon di hero. type: github, linkedin, instagram. Baris yang href-nya mengandung GANTI tidak ditampilkan.
+  socials: [
+    { type: "github", href: "https://github.com/11lika" },
+    { type: "linkedin", href: "https://www.linkedin.com/in/GANTI-USERNAME" },
+    { type: "instagram", href: "https://instagram.com/_metalika02" }
+  ],
   cta: "Saya sedang mencari pekerjaan di bidang IT. Kirim pesan dan saya akan membalas secepatnya.",
   contacts: [
-    { label: "Email", text: "metalikagunena02@gmail.com", href: "mailto:metalikagunena02@gmail.com" },
+    { label: "Email", text: "GANTI-EMAIL@contoh.com", href: "mailto:GANTI-EMAIL@contoh.com" },
     { label: "LinkedIn", text: "linkedin.com/in/GANTI-USERNAME", href: "https://www.linkedin.com/in/GANTI-USERNAME" },
     { label: "GitHub", text: "github.com/11lika", href: "https://github.com/11lika" }
   ]
