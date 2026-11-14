@@ -58,3 +58,6 @@ dialog::backdrop{background:rgba(3,0,20,.8)}
 .two{grid-template-columns:1fr}
 .photo{margin:0 auto;order:-1;width:min(70%,260px)}
 }
+:root{color-scheme:dark}
+html{scrollbar-width:thin;scrollbar-color:var(--ac) var(--bg)}
+dialog{scrollbar-width:thin;scrollbar-color:var(--ac) var(--s1)}
