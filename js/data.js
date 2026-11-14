@@ -61,8 +61,8 @@ window.DATA = {
   ],
   cta: "Saya sedang mencari pekerjaan di bidang IT. Kirim pesan dan saya akan membalas secepatnya.",
   contacts: [
-    { label: "Email", text: "GANTI-EMAIL@contoh.com", href: "mailto:GANTI-EMAIL@contoh.com" },
-    { label: "LinkedIn", text: "linkedin.com/in/GANTI-USERNAME", href: "https://www.linkedin.com/in/GANTI-USERNAME" },
+    { label: "Email", text: "metalikagunena@gmail.com", href: "mailto:metalikagunena@gmail.com" },
+    { label: "LinkedIn", text: "www.linkedin.com/in/metalika-gunena", href: "www.linkedin.com/in/metalika-gunena" },
     { label: "GitHub", text: "github.com/11lika", href: "https://github.com/11lika" }
   ]
 };
