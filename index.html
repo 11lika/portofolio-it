@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Metalika Gunena | Portofolio</title>
+<meta name="description" content="Portofolio Metalika Gunena, lulusan D-IV Teknik Informatika: server, jaringan, dan pengembangan web.">
+<meta name="theme-color" content="#030014">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav"><div class="wrap">
+<a class="brand" href="#beranda" id="brand"></a>
+<nav aria-label="Navigasi utama"><a href="#beranda">Beranda</a><a href="#tentang">Tentang</a><a href="#portofolio">Portofolio</a><a href="#kontak">Kontak</a></nav>
+</div></header>
+
+<main>
+<section class="hero" id="beranda"><div class="wrap two">
+<div>
+<h1 id="name"></h1>
+<p class="role" id="role"></p>
+<p class="muted" id="intro"></p>
+<div class="row"><a class="btn pri" href="#portofolio">Lihat proyek</a><a class="btn" href="#kontak">Hubungi saya</a></div>
+</div>
+<div class="photo" id="photo" aria-label="Foto profil"></div>
+</div></section>
+
+<section class="sec" id="tentang"><div class="wrap">
+<h2>Tentang saya</h2>
+<div id="about" class="about"></div>
+</div></section>
+
+<section class="sec" id="portofolio"><div class="wrap">
+<h2>Portofolio</h2>
+<div class="tabs" role="tablist" aria-label="Kategori portofolio">
+<button role="tab" aria-selected="true" aria-controls="p-proyek" id="t-proyek">Proyek</button>
+<button role="tab" aria-selected="false" aria-controls="p-sertifikat" id="t-sertifikat">Sertifikat</button>
+<button role="tab" aria-selected="false" aria-controls="p-skill" id="t-skill">Skill</button>
+</div>
+<div role="tabpanel" id="p-proyek" aria-labelledby="t-proyek" class="grid"></div>
+<div role="tabpanel" id="p-sertifikat" aria-labelledby="t-sertifikat" class="grid certs" hidden></div>
+<div role="tabpanel" id="p-skill" aria-labelledby="t-skill" class="skills" hidden></div>
+</div></section>
+
+<section class="sec" id="kontak"><div class="wrap">
+<h2>Kontak</h2>
+<p class="muted" id="cta"></p>
+<ul class="contacts" id="contacts"></ul>
+</div></section>
+</main>
+
+<footer><div class="wrap" id="foot"></div></footer>
+
+<dialog id="dlg" aria-label="Detail"></dialog>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
